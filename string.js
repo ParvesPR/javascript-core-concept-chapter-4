@@ -33,7 +33,12 @@ var d = c.substring(4, 7);/* Extract string text and indicate start & ending poi
 var e = c.charAt(7); /* Character at a specified index (position) in a string */
 var f = c.startsWith('I am') /* Returns true if a string starts with a specified string. Otherwise, it returns false */
 var g = c.endsWith('I am') /* Returns true if a string ends with a specified string. Otherwise, it returns false */
+var h = c.toLocaleLowerCase(); /* Transform text into small letter */
+var i = c.toUpperCase(); /* Transform text into capital letter */
+var k = c.split(''); /* Spilt string and create array */
+var l = '   abcdef  '
 console.log(d);
 console.log(c.charAt(7));
 console.log(f);
-console.log(g);
+console.log(k);
+console.log(l.trim()); /* Remove unwanted space */
