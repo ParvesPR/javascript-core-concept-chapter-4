@@ -24,3 +24,16 @@ var str3 = 'This is a \tstring'; /* Horizontal Tabulator */
 var a = 'abcA';
 var b = 'abca';
 console.log(a > b); /* javaScript uses the lexicographic system to compare string */
+
+// Build in string method
+var a = 'I am';
+var b = 'Parves';
+var c = a.concat(b); /* Joins two or more strings. */
+var d = c.substring(4, 7);/* Extract string text and indicate start & ending point */
+var e = c.charAt(7); /* Character at a specified index (position) in a string */
+var f = c.startsWith('I am') /* Returns true if a string starts with a specified string. Otherwise, it returns false */
+var g = c.endsWith('I am') /* Returns true if a string ends with a specified string. Otherwise, it returns false */
+console.log(d);
+console.log(c.charAt(7));
+console.log(f);
+console.log(g);
